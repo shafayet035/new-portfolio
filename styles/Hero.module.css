@@ -1,0 +1,14 @@
+.section_main {
+  background-color: #000;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+}
+.section_intro {
+  max-width: 800px;
+}
+
+.h1 {
+  font-size: 70px;
+  margin: 5px 0;
+}

@@ -1,26 +1,19 @@
-html,
-body {
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap");
+* {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: #100f0f;
+  color: rgb(225, 225, 225);
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1444px;
+  width: 90%;
+  margin: 0 auto;
 }
