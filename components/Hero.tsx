@@ -6,14 +6,16 @@ import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 const Hero: FC = () => {
   return (
     <section className={styles.section_main}>
+      <img className={styles.cloud} src="/cloudsvg.svg" alt="" />
+      <img className={styles.cloud} src="/cloudsvg.svg" alt="" />
       <div className={`container`}>
         <div className={styles.section_devide}>
           <div className={styles.section_intro}>
             <span>Hello!</span>
             <h1 className={styles.h1}>I'm Shafayet Hossain</h1>
             <p className={styles.p}>
-              A Front-end Developer. Let me take you into a deeper experience to make a moment a lasting conveyable
-              memory. Let me help build your Website/Web Application.{" "}
+              A Front-end Developer with 3+ years of Experience. Let me take you into a deeper experience to make a
+              moment a lasting conveyable memory. Let me help build your Website/Web Application.{" "}
             </p>
             <div className="btn_group">
               <button className="btn_primary">Download Resume</button>

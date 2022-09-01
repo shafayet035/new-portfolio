@@ -31,6 +31,17 @@
   bottom: -200px;
 }
 
+.cloud {
+  position: absolute;
+  top: 10px;
+  right: 50%;
+  width: 250px;
+}
+
+.cloud:nth-child(2) {
+  right: 40%;
+}
+
 @media screen and (max-width: 1024px) {
   .section_main {
     height: auto;
@@ -47,5 +58,12 @@
 @media screen and (max-width: 576px) {
   .h1 {
     font-size: 42px;
+  }
+  .cloud {
+    right: 0;
+    width: 160px;
+  }
+  .cloud:nth-child(2) {
+    display: none;
   }
 }

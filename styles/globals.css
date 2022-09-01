@@ -11,10 +11,12 @@ body {
   color: rgb(225, 225, 225);
   line-height: 1.5;
   font-size: 18px;
+  overflow-x: hidden;
 }
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 ul {
@@ -120,6 +122,11 @@ ul {
   gap: 7px;
 }
 
+footer {
+  background-color: #000;
+  padding: 4rem 0;
+}
+
 @media screen and (max-width: 1024px) {
   body {
     font-size: 16px;
@@ -130,7 +137,7 @@ ul {
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
   body {
     font-size: 16px;
   }
@@ -138,5 +145,11 @@ ul {
   .btn_group {
     flex-direction: column;
     align-items: flex-start;
+  }
+  .section_title {
+    font-size: 40px;
+  }
+  .title_desc {
+    font-size: 14px;
   }
 }

@@ -22,6 +22,15 @@ const projects = [
     live: "https://e-clone-2c81e.web.app/",
     github: "https://github.com/shafayet035/amazone-clone",
   },
+  {
+    name: "Image Search App",
+    image_path: "/pixa.jpg",
+    desc: "I used Pixabay's API to Fetch the Images and Displayed Them. Also it is a Responsive Galery",
+    features: ["Search Image", "Responsive", "Third Party API"],
+    techs: "Vanilla JavaScript, Pixabay API",
+    live: "https://pixaflash.netlify.app/",
+    github: "https://github.com/shafayet035/pixaFlash",
+  },
 ];
 
 const Project = () => {
@@ -58,7 +67,7 @@ interface Project {
 
 const SingleProject: FC<Project> = ({ name, image_path, desc, features, techs, live, github }: Project) => {
   return (
-    <div className={styles.course_box}>
+    <div className={styles.project_box}>
       <div>
         <img src={image_path} alt="" />
       </div>

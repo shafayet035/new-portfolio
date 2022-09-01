@@ -135,6 +135,49 @@ const Work = () => {
             </li>
           </ul>
         </div>
+
+        {/* // Freelance Web Developer  */}
+        <div className={styles.work_box}>
+          <h3>
+            Freelancer.com{" "}
+            <a href="https://www.freelancer.com/u/shafayet035" target="_blank">
+              <FontAwesomeIcon width={20} icon={faExternalLink} color="white" />
+            </a>
+          </h3>
+          <i>Jun 2019 to Aug 2021 - (2 Years)</i>
+          <p className={styles.work_exp_desc}>I started my web development journey as a Freelance web developer.</p>
+          <ul className={styles.work_responsibilites}>
+            <li>
+              {" "}
+              <FontAwesomeIcon width={15} icon={faArrowRight} color="white" /> Contribute on React Projects, Bug Fixing
+              and sharing Ideas on Various Projects.
+            </li>
+            <li>
+              {" "}
+              <FontAwesomeIcon width={15} icon={faArrowRight} color="white" /> Designed and Built WordPress Websites
+            </li>
+            <li>
+              {" "}
+              <FontAwesomeIcon width={15} icon={faArrowRight} color="white" />
+              Built Websites using and HTML/CSS/JavaScript.
+            </li>
+            <li>
+              {" "}
+              <FontAwesomeIcon width={15} icon={faArrowRight} color="white" />
+              Optimized and Made websites with SEO Friendly
+            </li>
+            <li>
+              {" "}
+              <FontAwesomeIcon width={15} icon={faArrowRight} color="white" />
+              Customized E-commerce Solution using WordPress
+            </li>
+            <li>
+              {" "}
+              <FontAwesomeIcon width={15} icon={faArrowRight} color="white" />
+              Collaborating with Clients to understand and develop Features and products.
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
   );
