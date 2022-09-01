@@ -1,5 +1,7 @@
 import React, { FC } from "react";
 import styles from "../styles/Hero.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 const Hero: FC = () => {
   return (
@@ -15,8 +17,16 @@ const Hero: FC = () => {
             </p>
             <div className="btn_group">
               <button className="btn_primary">Download Resume</button>
-              <a href="#contact" className="btn_secondary">
-                Contact Me
+              <a
+                href="https://www.linkedin.com/in/shafayet-hossain/"
+                target="_blank"
+                className="btn_secondary with_icon"
+              >
+                <span>
+                  {" "}
+                  <FontAwesomeIcon icon={faLinkedinIn} width={20} color="#fff" />{" "}
+                </span>
+                <span> Linkedin</span>
               </a>
             </div>
           </div>

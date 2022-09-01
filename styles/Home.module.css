@@ -1,0 +1,76 @@
+.list_title {
+  font-size: 30px;
+  color: #bc79ed;
+}
+
+.skills_parent {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.skill_list li {
+  margin-bottom: 16px;
+}
+
+.work_box {
+  background-color: #1b1b1b;
+  padding: 50px;
+  border-radius: 10px;
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.work_box h3 {
+  font-size: 24px;
+  color: #bc79ed;
+  margin-bottom: 5px;
+}
+
+.work_box i {
+  font-size: 15px;
+}
+
+.work_responsibilites li,
+.course_box li {
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.work_exp_desc {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.course_box {
+  display: flex;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.course_box img {
+  max-width: 550px;
+  width: 100%;
+}
+
+.course_box div:nth-child(2) {
+  padding: 30px;
+}
+
+.course_box h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.course_box p {
+  margin-bottom: 15px;
+}
+
+.course_box ul {
+  margin-bottom: 15px;
+}
