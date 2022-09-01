@@ -83,7 +83,7 @@ const SingleProject: FC<Project> = ({ name, image_path, desc, features, techs, l
             </li>
           ))}
         </ul>
-        <p>Techs: React, ContextAPI, Firebase, Node.js, MongoDB</p>
+        <p>Techs: {techs}</p>
         <div className="btn_group">
           <a href={live} target="_blank" rel="noreferrer" className="btn_primary">
             Live Site
