@@ -15,7 +15,7 @@ const Hero: FC = () => {
             <h1 className={styles.h1}>I am Shafayet Hossain</h1>
             <p className={styles.p}>
               A Front-end Developer with 3+ years of Experience. Let me take you into a deeper experience to make a
-              moment a lasting conveyable memory. Let me help build your Website/Web Application.{" "}
+              moment a lasting conveyable memory. Let me help build your Website/Web Application .{" "}
             </p>
             <div className="btn_group">
               <a href="/resume.pdf" target="_blank" rel="noreferrer" className="btn_primary">
