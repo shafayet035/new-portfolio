@@ -18,7 +18,9 @@ const Hero: FC = () => {
               moment a lasting conveyable memory. Let me help build your Website/Web Application.{" "}
             </p>
             <div className="btn_group">
-              <button className="btn_primary">Download Resume</button>
+              <a href="/resume.pdf" target="_blank" rel="noreferrer" className="btn_primary">
+                Download Resume
+              </a>
               <a
                 href="https://www.linkedin.com/in/shafayet-hossain/"
                 target="_blank"
