@@ -26,9 +26,9 @@
 }
 
 .img {
-  width: 100%;
-  position: relative;
-  bottom: -200px;
+  width: 100% !important;
+  position: relative !important;
+  bottom: -200px !important;
 }
 
 .cloud {
