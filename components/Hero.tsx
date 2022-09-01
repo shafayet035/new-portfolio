@@ -22,6 +22,7 @@ const Hero: FC = () => {
               <a
                 href="https://www.linkedin.com/in/shafayet-hossain/"
                 target="_blank"
+                rel="noreferrer"
                 className="btn_secondary with_icon"
               >
                 <span>

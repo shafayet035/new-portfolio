@@ -18,7 +18,7 @@ const Work = () => {
         <div className={styles.work_box}>
           <h3>
             Online Business Media Netherlands{" "}
-            <a href="https://obmn.nl" target="_blank">
+            <a href="https://obmn.nl" target="_blank" rel="noreferrer">
               <FontAwesomeIcon width={20} icon={faExternalLink} color="white" />
             </a>
           </h3>
@@ -85,7 +85,7 @@ const Work = () => {
         <div className={styles.work_box}>
           <h3>
             Kreiger Business Assistance{" "}
-            <a href="http://kba-home.com/" target="_blank">
+            <a href="http://kba-home.com/" target="_blank" rel="noreferrer">
               <FontAwesomeIcon width={20} icon={faExternalLink} color="white" />
             </a>
           </h3>
@@ -140,7 +140,7 @@ const Work = () => {
         <div className={styles.work_box}>
           <h3>
             Freelancer.com{" "}
-            <a href="https://www.freelancer.com/u/shafayet035" target="_blank">
+            <a href="https://www.freelancer.com/u/shafayet035" target="_blank" rel="noreferrer">
               <FontAwesomeIcon width={20} icon={faExternalLink} color="white" />
             </a>
           </h3>
