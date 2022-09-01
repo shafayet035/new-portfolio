@@ -12,7 +12,7 @@ const Hero: FC = () => {
         <div className={styles.section_devide}>
           <div className={styles.section_intro}>
             <span>Hello!</span>
-            <h1 className={styles.h1}>I'm Shafayet Hossain</h1>
+            <h1 className={styles.h1}>I am Shafayet Hossain</h1>
             <p className={styles.p}>
               A Front-end Developer with 3+ years of Experience. Let me take you into a deeper experience to make a
               moment a lasting conveyable memory. Let me help build your Website/Web Application.{" "}
